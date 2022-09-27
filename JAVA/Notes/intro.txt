@@ -1,0 +1,23 @@
+What are functions?
+Group of code which executes a particular tasks
+
+What are Classes?
+Template to create objects, this will group all the functions or similar type of functions
+
+Static is a method or a command that will never give the function a proper permission to create classes
+A main method in every java program is written and executed and other programs, classes or functions that are created on the way are called using the main method
+
+Note main method can only call the functions but cannot create one.
+
+The naming conventions that are used in classes in Java is PascalConvention. 
+The main features are 
+1. No spacing between the functions and
+2. First letter should always be capital or upper case
+
+The functions use the camel case notation and the are given in this format
+The naming convention that are used in function in Java is camelCaseConvention.
+The main features are
+1. The first letter in the string is always in lowercase and no space is given in between
+
+
+

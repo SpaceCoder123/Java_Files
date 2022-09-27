@@ -1,0 +1,11 @@
+Anatomy of a java program
+
+Documentation Section - Describes about who created the program, purpose and date
+Package Statement - To which package the program belongs to
+Import Statement - What packages are involved in this current execution of the java program
+Interface Statement 
+Class definitions 
+Main Method Class
+{
+	Main Method Definition
+}

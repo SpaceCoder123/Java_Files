@@ -1,0 +1,14 @@
+Data types are java are divided into sub categories
+Primitive data type and Non primitive data type
+In primitive data type
+
+1. Int
+2. Byte
+3. Long
+4. Float
+5. Char
+6. Double
+7. Bool
+8. short
+
+Non primitive data types
