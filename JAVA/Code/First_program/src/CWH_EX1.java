@@ -8,11 +8,11 @@ public class CWH_EX1 {
     public static void main(String args[]){
 
         System.out.println("Please enter the total marks to be awarded");
-        Scanner Total = new Scanner(System.in);
-        int Total_marks = Total.nextInt();
-        Scanner Sankrit = new Scanner(System.in);
-        System.out.println("Please enter your First language marks");
-        float marks1 = Sankrit.nextFloat();
+         Scanner Total = new Scanner(System.in);
+         int Total_marks = Total.nextInt();
+//         Scanner Sankrit = new Scanner(System.in);
+//        System.out.println("Please enter your First language marks");
+//        float marks1 = Sankrit.nextFloat();
         Scanner English = new Scanner(System.in);
         System.out.println("Please enter your Second language marks");
         float marks2 = English.nextFloat();
@@ -34,7 +34,7 @@ public class CWH_EX1 {
 
         System.out.println("Calculating the total percentage");
 
-        float total_Sum = marks1+marks2+marks3+marks4+marks5+marks6;
+        float total_Sum = marks2+marks3+marks4+marks5+marks6;
         float percentage = total_Sum / Total_marks ;
         System.out.println("The total percentage marks obtained by the student is= "+percentage * 100+" %");
         //System.out.println(percentage);
