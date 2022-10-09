@@ -1,6 +1,6 @@
 
 // import codeWithMohan.friend.MohanFriend;
-
+// this file is outside the package of code with mohan and hence we try to access the variables by assigned different access modifiers
 import codeWithMohan.gym.MohanGym;
 
 class Using extends MohanGym{
