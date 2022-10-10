@@ -1,0 +1,45 @@
+Step 1 -> In order to create a package, in the header section write 
+package packageName;
+
+// your code here 
+
+
+In terminal -> javac filename.java // run using this command
+
+this command will compile according to the package name and will create a new folder and compile the code
+in order to do that 
+
+javac -d filename.java - this will create a .class file in the package folder itself 
+
+
+// now in the main file remove the header (line 2) and start running the code
+
+if there are multiple files in the same folder then 
+
+javac -d . *.java //  note you have to create a header to add particular package name as header in the java file
+
+now the all the .class files which are there in the parituclar folder will be compiled and added into the particular class folder  as byte code and these code can be accessed anywhere in the OS
+
+// you can keep seperate name to the files and add files to seperate folders and run the javac command and the java compiler will automatically segregate the files into corresponding folders and organize them accordingly
+
+// if you want to create a subfolder then use the header as defined in Line 1 and include this in the following command
+package yourpackagename.subfolder;
+
+in terminal -> javac yourpackagename.java 
+this command will automatically create a subfolder inside the main package. Later comment the header and run the code
+
+How will you use the package
+
+import yourpackage.Filename ;
+
+and using the above command you can access all the above packages 
+
+first compile the code using line 7 and interpret the code using the below command 
+
+java filename -> in the terminal
+
+
+------------------------------------------------------------------------------------
+
+First compile .java file and interpret the .class file
+
