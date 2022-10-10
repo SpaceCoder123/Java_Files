@@ -1,0 +1,23 @@
+The life cycle of thread is depicted the flowchart below
+
+1. New - Meaning the thread is created or kept in front of the scheduler
+
+2. Runnable - Now the thread scheduler has to select an appropriate thread to start the code and therefore a particular thread can be started
+and this thread has been selected to run
+
+3. Running - Now the code execution has been initiated
+
+4. Non runnable - Now suppose the thread has been started to execute then it is waiting for some request which is not dependent on the host os,
+then the thread scheduler puts the thread into halt state and looks at the other threads and executes the other threads
+
+5. Terminated - The thread has completely run all lines of code and currently exhausted all the lines of code and hence has come to
+Phase of completion and has been completed
+
+Now thread can be set as priorities as well which has to  be completed before any other execution and that can also be set
+
+Now the Java virtual machine has a process of stacking threads which are given by the cpu and can run in accordance to the priorities
+There are three types of priorities in java
+Minimum priority = 1;
+Max priority = 5;
+Normal priority = 10;
+
